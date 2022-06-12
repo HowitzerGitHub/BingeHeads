@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.35s linear;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url("bingeheads_logo.png");
+    background-size: cover;
+}
+
+.containerInfo{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 480px 1fr;
+    grid-gap: 32px;
+    backdrop-filter: blur(15px) saturate(180%);
+    -webkit-backdrop-filter: blur(15px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.73);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: rgb(255, 255, 255);
+}
+
+.navbar{
+    width: 100%;
+    height: 35px;
+    padding-bottom: 48px;
+    border-radius: 10px;
+    padding-left: 0px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+    padding-left: 21px;
+}
+
+.info{
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.posterSide {
+    width: 480px;
+    height: 100vh;
+    overflow: hidden;
+    box-shadow:  -11px -11px 22px #585555,
+             11px 11px 22px #787373;
+}
+
+.posterSide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 1.5s ease-in-out;
+
+}
+
+.posterSide img:hover{
+    transform: scale(1.1);
+}
+
+.infor > div {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    padding-bottom: 20px;
+}
+
+.movie-title{
+    font-size: 64px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+}
+
+.movie-detail{
+    margin-bottom: 10px;
+}
+
+.movie-detail .set{
+    display: inline-block;
+    margin-right: 54px;
+    margin-bottom: 23px;
+}
+
+.movie-detail label{
+    font-size: 14px;
+    color: #ededed;
+    display: block;
+}
+
+.movie-detail span{
+    font-size: 22px;
+    letter-spacing: 0.1rem;
+}
+
+.movie-description{
+    line-height: 24px;
+    font-size: 1.5rem;
+}
+
+
+.menu{
+    /* padding-top: 17px; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.menu .btn{
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+
+.menu .button{
+    margin: 20px;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 12px;
+}
+
+.dropdown-item{
+    cursor: pointer;
+}
+
+.dropdown-item:hover{
+    background-color: #585555;
+    color: #ededed;}
