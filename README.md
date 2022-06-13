@@ -18,7 +18,7 @@ Steps To Run this Project on Local Host (Personal Laptop/Computer as a Webserver
 
 4 - Find a folder named 'htdocs' inside the installation directory
 
-5 - Open the folder and place your website folder inside it
+5 - Open the folder and place your website folder(fasal-website) inside it
 
 6 - Now go to the XAMPP Control Panel application
 
