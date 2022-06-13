@@ -5,7 +5,7 @@ NOTE : Website is not made Responsive yet (will be done in Future) so mobile/tab
 
 Steps To Run this Project on Local Host (Personal Laptop/Computer as a Webserver)
 0 - Clone this Repo or Download the Zip
-1 - Install XAMPP(XAMPP for Apache mariaDB PHP Pearl) server from - https://www.apachefriends.org/download.html (Choose your OS in which you want to        install Server)
+1 - Install XAMPP(XAMPP for Apache mariaDB PHP Pearl) server from - https://www.apachefriends.org/download.html (Choose your OS in which you want to install the Server)
 2 - After the installation is complete move to parent directory where you installed XAMPP
 3 - Go to XAMPP installation Folder
 4 - Find a folder named 'htdocs' inside the installation directory
