@@ -12,7 +12,7 @@ Steps To Run this Project on Local Host (Personal Laptop/Computer as a Webserver
 
 1 - Install XAMPP(XAMPP for Apache mariaDB PHP Pearl) server from - https://www.apachefriends.org/download.html (Choose your OS in which you want to        install Server)
 
-2 - After the installation is complete move to parent directory where you installed XAMPP
+2 - After the installation is complete go to parent directory where you installed XAMPP
 
 3 - Go to XAMPP installation Folder
 
