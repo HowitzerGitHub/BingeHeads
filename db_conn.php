@@ -1,8 +1,8 @@
 <?php
-$sname = "sql110.epizy.com";
-$uname = "epiz_31940855";
-$password = "lWy7pVnsYijKZ";
-$dbname = "epiz_31940855_bingedb";
+$sname = "localhost";   //Server Name
+$uname = "root";        //username
+$password = "";         //password(database)
+$dbname = "";           //database name
 
 $conn = mysqli_connect($sname,$uname,$password,$dbname);
 
