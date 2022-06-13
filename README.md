@@ -4,7 +4,7 @@ Movie Website
 Access this full website on - http://bingeheads.epizy.com/  (please wait on the login/signup page for a few second to load the background)
 (This is due to the low bandwidth of the free hosting)
 
-NOTE : Website is not made Responsive yet (will be done in Future) so mobile/tab devices may not be able to view it properly
+NOTE : Website is not made Responsive yet (will be done in Future) so mobile/tablet devices may not be able to view it properly
 
 Steps To Run this Project on Local Host (Personal Laptop/Computer as a Webserver)
 
