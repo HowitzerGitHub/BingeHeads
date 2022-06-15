@@ -2,7 +2,7 @@
 $sname = "localhost";   //Server Name
 $uname = "root";        //username
 $password = "";         //password(database)
-$dbname = "";           //database name
+$dbname = "moviesbinge";           //database name
 
 $conn = mysqli_connect($sname,$uname,$password,$dbname);
 
